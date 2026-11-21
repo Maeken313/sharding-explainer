@@ -146,7 +146,7 @@ const Credit: React.FC<{layout: Layout}> = ({layout}) => {
 				— and how <span style={{color: C.ok, fontWeight: 600}}>sharding</span> gets you past it
 			</div>
 			<div style={{fontFamily: MONO, fontSize: v ? 24 : 20, fontWeight: 600, letterSpacing: 2.5, color: C.dim, marginTop: 56, lineHeight: 1.9}}>
-				SPEC PIECE · CONCEPT, ANIMATION & EDIT: MAEKEN<br />
+				SPEC PIECE · CONCEPT, ANIMATION & EDIT: KENTARO MAEDA<br />
 				NOT AFFILIATED WITH OR ENDORSED BY PLANETSCALE
 			</div>
 		</div>

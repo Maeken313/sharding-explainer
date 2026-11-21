@@ -220,7 +220,7 @@ export const MakingOf: React.FC = () => {
 			<Scene a={K.changeDone} b={K.qa}>
 				<AbsoluteFill style={{justifyContent: 'center', paddingLeft: 120}}>
 					<Words text={`${Math.floor(K.variantSeconds / 60)} min ${K.variantSeconds % 60} s`} at={K.changeDone + 0.1} size={150} accent={['min', 's']} />
-					<div style={{marginTop: 24}}><Words text="from edit to rendered video. Voice, QA, re-timing, sound." at={K.changeDone + 0.5} size={40} weight={600} color={C.dim} /></div>
+					<div style={{marginTop: 24}}><Words text="from script edit to a re-voiced, re-checked, re-timed new opening." at={K.changeDone + 0.5} size={40} weight={600} color={C.dim} /></div>
 				</AbsoluteFill>
 			</Scene>
 
@@ -277,7 +277,7 @@ export const MakingOf: React.FC = () => {
 					<Label size={22} style={{marginBottom: 22}}>SOURCE CODE</Label>
 					<Words text="github.com/Maeken313/sharding-explainer" at={K.outro + 0.2} size={60} weight={700} accent={['github.com/Maeken313/sharding-explainer']} />
 					<div style={{marginTop: 60, opacity: ip(f, f2(K.outro + 1.2), f2(K.outro + 1.8), 0, 1)}}>
-						<Label size={22} style={{lineHeight: 1.9}}>MADE BY MAEKEN, WITH CLAUDE AS PIPELINE ENGINEER<br />SPEC PIECE · NOT AFFILIATED WITH OR ENDORSED BY PLANETSCALE</Label>
+						<Label size={22} style={{lineHeight: 1.9}}>MADE BY KENTARO MAEDA, WITH CLAUDE AS PIPELINE ENGINEER<br />SPEC PIECE · NOT AFFILIATED WITH OR ENDORSED BY PLANETSCALE</Label>
 					</div>
 				</AbsoluteFill>
 			</Scene>

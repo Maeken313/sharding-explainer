@@ -1,6 +1,6 @@
 # Why one database hits a wall — and how sharding gets you past it
 
-> **Spec piece.** Not affiliated with or endorsed by PlanetScale. Made as a portfolio piece by **MAEKEN**, with Claude as pipeline engineer.
+> **Spec piece.** Not affiliated with or endorsed by PlanetScale. Made as a portfolio piece by **Kentaro Maeda**, with Claude as pipeline engineer. Portfolio: [maeken313.github.io](https://maeken313.github.io)
 
 ![Preview](media/preview.gif)
 
@@ -56,7 +56,7 @@ Set `CHROME=/path/to/chrome` before `./render.sh` to use a specific browser; oth
 
 ## Credits & licenses
 
-- Concept, direction & edit: **MAEKEN** ([@maeken_313](https://www.instagram.com/maeken_313/)). Pipeline and code written with Claude (Anthropic).
+- Concept, direction & edit: **Kentaro Maeda** ([@maeken_313](https://www.instagram.com/maeken_313/)). Pipeline and code written with Claude (Anthropic).
 - Built with [Remotion](https://www.remotion.dev) (free license for individuals), Kokoro TTS, faster-whisper, ffmpeg.
-- Code: MIT. Video, narration and design: © 2026 MAEKEN, all rights reserved.
+- Code: MIT. Video, narration and design: © 2026 Kentaro Maeda, all rights reserved.
 - *PlanetScale* and *Vitess* are referenced for context only. This is not an official PlanetScale video.
