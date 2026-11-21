@@ -1,0 +1,130 @@
+{
+  "title": "Why one database hits a wall — and how sharding gets you past it",
+  "credit": "Spec piece · Concept, animation & edit by MAEKEN · Not affiliated with or endorsed by PlanetScale",
+  "voice": "am_michael",
+  "speed": 1.0,
+  "gapAfter": 0.35,
+  "scenes": [
+    {
+      "id": "hook",
+      "lines": [
+        {
+          "id": "l1",
+          "text": "Every app starts with one database.",
+          "short": true
+        },
+        {
+          "id": "l2",
+          "text": "Then people actually show up.",
+          "short": true
+        }
+      ]
+    },
+    {
+      "id": "wall",
+      "lines": [
+        {
+          "id": "l3",
+          "text": "Traffic doubles. Then it doubles again.",
+          "short": true
+        },
+        {
+          "id": "l4",
+          "text": "Your p99 latency — the slowest one percent of requests — starts to climb.",
+          "short": false
+        },
+        {
+          "id": "l5",
+          "text": "And that's the part your users feel.",
+          "short": true
+        }
+      ]
+    },
+    {
+      "id": "scaleup",
+      "lines": [
+        {
+          "id": "l6",
+          "text": "The first fix is a bigger machine.",
+          "short": false
+        },
+        {
+          "id": "l7",
+          "text": "It works — until there's no bigger machine to buy.",
+          "short": true
+        }
+      ]
+    },
+    {
+      "id": "shard",
+      "lines": [
+        {
+          "id": "l8",
+          "text": "So you split the data.",
+          "short": true
+        },
+        {
+          "id": "l9",
+          "text": "Sharding cuts one huge table into smaller pieces, each on its own server.",
+          "short": true
+        },
+        {
+          "id": "l10",
+          "text": "A routing layer reads a key, like the user ID, and sends each query to the one shard that owns it.",
+          "short": false
+        }
+      ]
+    },
+    {
+      "id": "result",
+      "lines": [
+        {
+          "id": "l11",
+          "text": "Now every server carries only a slice of the load.",
+          "short": true
+        },
+        {
+          "id": "l12",
+          "text": "Need more room? Add another shard.",
+          "short": true
+        },
+        {
+          "id": "l13",
+          "text": "Capacity grows sideways, instead of hitting a ceiling.",
+          "short": false
+        }
+      ]
+    },
+    {
+      "id": "catch",
+      "lines": [
+        {
+          "id": "l14",
+          "text": "The hard part is doing it live: moving data between shards while traffic keeps flowing.",
+          "short": false
+        },
+        {
+          "id": "l15",
+          "text": "That's exactly what systems like Vitess were built for.",
+          "short": false,
+          "say": "That's exactly what systems like Vi-tess were built for."
+        }
+      ]
+    },
+    {
+      "id": "outro",
+      "lines": [
+        {
+          "id": "l16",
+          "text": "So one database becomes many.",
+          "short": true
+        },
+        {
+          "id": "l17",
+          "text": "Your app never notices.",
+          "short": true
+        }
+      ]
+    }
+  ]
+}

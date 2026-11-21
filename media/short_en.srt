@@ -1,0 +1,51 @@
+1
+00:00:00,600 --> 00:00:02,941
+Every app starts with one
+database.
+
+2
+00:00:03,091 --> 00:00:05,058
+Then people actually show up.
+
+3
+00:00:05,757 --> 00:00:08,361
+Traffic doubles. Then it doubles
+again.
+
+4
+00:00:08,501 --> 00:00:10,543
+And that's the part your users
+feel.
+
+5
+00:00:10,683 --> 00:00:13,863
+It works — until there's no
+bigger machine to buy.
+
+6
+00:00:14,564 --> 00:00:16,064
+So you split the data.
+
+7
+00:00:16,214 --> 00:00:21,272
+Sharding cuts one huge table
+into smaller pieces, each on its
+own server.
+
+8
+00:00:21,412 --> 00:00:24,701
+Now every server carries only a
+slice of the load.
+
+9
+00:00:24,851 --> 00:00:27,287
+Need more room? Add another
+shard.
+
+10
+00:00:27,427 --> 00:00:29,725
+So one database becomes many.
+
+11
+00:00:29,875 --> 00:00:31,697
+Your app never notices.

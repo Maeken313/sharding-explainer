@@ -1,0 +1,173 @@
+{
+ "_": "画の動きと効果音の両方がここを見る。at=行ID（またはシーンID）、word=その行の中の単語、off=秒。",
+ "cues": [
+  {
+   "name": "hookSlam",
+   "at": "l1",
+   "off": -0.15,
+   "sfx": "impact"
+  },
+  {
+   "name": "flood",
+   "at": "l2",
+   "word": "show",
+   "off": 0,
+   "sfx": "rise"
+  },
+  {
+   "name": "wallIn",
+   "at": "wall",
+   "off": 0,
+   "sfx": "whoosh"
+  },
+  {
+   "name": "double1",
+   "at": "l3",
+   "word": "doubles.",
+   "off": 0,
+   "sfx": "tick"
+  },
+  {
+   "name": "double2",
+   "at": "l3",
+   "word": "again.",
+   "off": -0.1,
+   "sfx": "tick"
+  },
+  {
+   "name": "chart",
+   "at": "l4",
+   "word": "p99",
+   "off": -0.1,
+   "sfx": "draw"
+  },
+  {
+   "name": "slowest",
+   "at": "l4",
+   "word": "slowest",
+   "off": 0,
+   "sfx": "none"
+  },
+  {
+   "name": "climb",
+   "at": "l4",
+   "word": "climb.",
+   "off": -0.15,
+   "sfx": "riseShort"
+  },
+  {
+   "name": "feel",
+   "at": "l5",
+   "word": "feel.",
+   "off": -0.1,
+   "sfx": "hit"
+  },
+  {
+   "name": "scaleIn",
+   "at": "scaleup",
+   "off": 0,
+   "sfx": "whoosh"
+  },
+  {
+   "name": "bigger",
+   "at": "l6",
+   "word": "bigger",
+   "off": 0,
+   "sfx": "thump"
+  },
+  {
+   "name": "ceiling",
+   "at": "l7",
+   "word": "until",
+   "off": 0,
+   "sfx": "clang"
+  },
+  {
+   "name": "split",
+   "at": "l8",
+   "word": "split",
+   "off": -0.05,
+   "sfx": "split"
+  },
+  {
+   "name": "slice",
+   "at": "l9",
+   "word": "smaller",
+   "off": 0,
+   "sfx": "slice"
+  },
+  {
+   "name": "router",
+   "at": "l10",
+   "word": "routing",
+   "off": -0.1,
+   "sfx": "click"
+  },
+  {
+   "name": "query",
+   "at": "l10",
+   "word": "sends",
+   "off": -0.1,
+   "sfx": "ping"
+  },
+  {
+   "name": "spread",
+   "at": "l11",
+   "off": 0,
+   "sfx": "whoosh"
+  },
+  {
+   "name": "addShard",
+   "at": "l12",
+   "word": "Add",
+   "off": 0,
+   "sfx": "pop"
+  },
+  {
+   "name": "sideways",
+   "at": "l13",
+   "word": "sideways,",
+   "off": -0.1,
+   "sfx": "swoosh"
+  },
+  {
+   "name": "live",
+   "at": "l14",
+   "off": 0,
+   "sfx": "whoosh"
+  },
+  {
+   "name": "moving",
+   "at": "l14",
+   "word": "moving",
+   "off": 0,
+   "sfx": "ticks"
+  },
+  {
+   "name": "vitess",
+   "at": "l15",
+   "word": "Vitess",
+   "off": -0.05,
+   "sfx": "impactSoft"
+  },
+  {
+   "name": "outroIn",
+   "at": "l16",
+   "off": 0,
+   "sfx": "whoosh"
+  },
+  {
+   "name": "never",
+   "at": "l17",
+   "word": "never",
+   "off": 0,
+   "sfx": "chime"
+  },
+  {
+   "name": "credit",
+   "at": "l17",
+   "off": 1.6,
+   "sfx": "none"
+  }
+ ]
+}

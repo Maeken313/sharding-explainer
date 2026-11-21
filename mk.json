@@ -1,0 +1,17 @@
+{
+  "_": "メイキング動画の時刻（秒）。画（MakingOf.tsx）と音（mk_audio.py）の両方がここを見る。",
+  "total": 60,
+  "title": 0,
+  "pipeline": 4,
+  "code": 14.5,
+  "change": 21,
+  "before": 24.2,
+  "after": 28.8,
+  "changeDone": 33.4,
+  "qa": 36,
+  "fixed": 42,
+  "numbers": 49,
+  "outro": 55,
+  "clipLen": 4.6,
+  "variantSeconds": 146
+}

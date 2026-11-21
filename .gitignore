@@ -1,0 +1,11 @@
+node_modules/
+anim/build/
+anim/check/
+anim/public/*.wav
+anim/public/mk/mk_mix.wav
+out/
+tts/*.onnx
+tts/*.bin
+audio/*.wav
+__pycache__/
+.DS_Store

@@ -1,0 +1,73 @@
+1
+00:00:00,600 --> 00:00:02,941
+Every app starts with one database.
+
+2
+00:00:03,091 --> 00:00:05,058
+Then people actually show up.
+
+3
+00:00:05,757 --> 00:00:08,361
+Traffic doubles. Then it doubles again.
+
+4
+00:00:08,512 --> 00:00:14,363
+Your p99 latency — the slowest one percent of
+requests — starts to climb.
+
+5
+00:00:14,513 --> 00:00:16,555
+And that's the part your users feel.
+
+6
+00:00:17,255 --> 00:00:19,601
+The first fix is a bigger machine.
+
+7
+00:00:19,750 --> 00:00:22,930
+It works — until there's no bigger machine to buy.
+
+8
+00:00:23,631 --> 00:00:25,131
+So you split the data.
+
+9
+00:00:25,281 --> 00:00:30,339
+Sharding cuts one huge table into smaller pieces,
+each on its own server.
+
+10
+00:00:30,489 --> 00:00:37,477
+A routing layer reads a key, like the user ID, and
+sends each query to the one shard that owns it.
+
+11
+00:00:38,176 --> 00:00:41,465
+Now every server carries only a slice of the load.
+
+12
+00:00:41,615 --> 00:00:44,051
+Need more room? Add another shard.
+
+13
+00:00:44,201 --> 00:00:47,843
+Capacity grows sideways, instead of hitting a
+ceiling.
+
+14
+00:00:48,543 --> 00:00:54,112
+The hard part is doing it live: moving data between
+shards while traffic keeps flowing.
+
+15
+00:00:54,262 --> 00:00:57,802
+That's exactly what systems like Vitess were built
+for.
+
+16
+00:00:58,502 --> 00:01:00,800
+So one database becomes many.
+
+17
+00:01:00,950 --> 00:01:02,772
+Your app never notices.
