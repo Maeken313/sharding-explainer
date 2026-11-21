@@ -38,7 +38,7 @@ cues.json  (which word triggers which motion + sound) ◄───────�
 
 - ~40 min from script to every output (first full cut)
 - 13 min to fix the opening hook and re-render everything
-- 2 min 26 s to change one script line and get a re-voiced, re-timed, rendered video
+- 2 min 26 s to change one script line, re-voice and re-check it, re-time everything and render the new opening (a full 66 s re-render takes about 5 min more)
 
 ## Rebuild
 
